@@ -8,5 +8,5 @@ Run test.m inside the folder "codes" to run all experiments. Run plotter.m to re
 
 ---------------------------------------------------------------------
 ### Reference
-[1] R. Meyer, C. Musco, and D. Persson. "Algorithm agnostic low-rank approximation of
+[1] R. Meyer, C. Musco, and D. Persson. "Algorithm-agnostic low-rank approximation of
 operator monotone matrix functions", 2023.
