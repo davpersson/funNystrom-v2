@@ -4,7 +4,7 @@ Scripts to reproduce figures in [1].
 ---------------------------------------------------------------------
 ### Numerical experiments
 
-Run test.m inside the folder "codes" to run all experiments. Run plotter.m to reproduce all figures.
+Run test.m inside the folder "codes" to run all experiments. Run plotter.m to reproduce all figures. Type plotter('error') to reproduce the figures.
 
 ---------------------------------------------------------------------
 ### Reference
