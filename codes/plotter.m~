@@ -13,8 +13,8 @@ for method = 1:methods
         figure(fig)
         semilogy((1:length(errors_original(method,measure,:)))-1,reshape(errors_projection(method,measure,:),[length(errors_function(method,measure,:)) 1 1]),'k-*','LineWidth',4)
         hold on
-        semilogy((1:length(errors_original(method,measure,:)))-1,reshape(errors_original(method,measure,:),[length(errors_original(method,measure,:)) 1 1]),'b--o','LineWidth',4)
-        semilogy((1:length(errors_original(method,measure,:)))-1,reshape(errors_function(method,measure,:),[length(errors_function(method,measure,:)) 1 1]),'r:^','LineWidth',4)
+        semilogy((1:length(errors_original(method,measure,:)))-1,reshape(errors_original(method,measure,:),[length(errors_original(method,measure,:)) 1 1]),'b-o','LineWidth',3)
+        semilogy((1:length(errors_original(method,measure,:)))-1,reshape(errors_function(method,measure,:),[length(errors_function(method,measure,:)) 1 1]),'r-^','LineWidth',2)
         xlabel('$q$','Interpreter','latex')
         ylabel('$\varepsilon$','Interpreter','latex')
         
@@ -35,8 +35,8 @@ for method = 1:methods
             
         end
         
-        xticks((1:length(errors_original(method,measure,:)))-1)
-        set(gca,'Fontsize',24)
+        xticks()
+        set(gca,'Fontsize',22)
         set(gca,'TickLabelInterpreter','latex');
         hold off
         figname = append('fig',num2str(method),alphabet(measure));
